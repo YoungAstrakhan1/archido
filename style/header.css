@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;700;800&family=Poppins:wght@500;600;700;800&display=swap');
+
+.header{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 178px;
+    margin-top: 32px;
+    font-family: Be Vietnam Pro;
+}
+
+.header_logo_contact{
+    display: flex;
+    gap: 60px;
+}
+
+.header_phone{
+    display: flex;
+    gap: 10px;
+    color: #004AE2;
+    font-size: 18px;
+}
+
+.header_nav{
+    margin-top: 20px;
+    display: flex;
+    gap: 60px;
+}
+
+.header_nav_bar{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    gap: 60px;
+}
+
+.header_button{
+    display: flex;
+}
+
+.btn_login{
+    font-family: Be Vietnam Pro;
+    background-color: #004AE2;
+    color: white;
+    font-size: 18px;
+    width: 129px;
+    height: 55px;
+    border: 0px;
+    border-radius: 6px;
+}
+
+@media (min-width:1200px) and (max-width:1440px){
+    .header{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        gap: 178px;
+        margin-top: 32px;
+        font-family: Be Vietnam Pro;
+    }
+
+    
+} 
