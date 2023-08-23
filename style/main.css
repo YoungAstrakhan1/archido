@@ -46,7 +46,9 @@
     border: none;
     background-color: #004AE2;
     height: 94px;
-    width: 357px;
+    width: 320px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .info_block_picture{
@@ -649,4 +651,4 @@
     font-weight: lighter;
     margin-top: -10px;
     margin-left: 100px;
-}s
+}
