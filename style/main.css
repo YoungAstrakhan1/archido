@@ -757,3 +757,104 @@
     font-size: 11px;
     letter-spacing: 0.7px;
 }
+
+.registration_title, .registration_subtitle{
+    margin: 0;
+    padding: 0;
+}
+
+.registration_titles{
+    margin-bottom: 20px;
+}
+
+.registration_title{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 44px;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.registration_subtitle{
+    color: #616161;
+    font-weight: lighter;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.input_names{
+    width: 240px;
+    height: 48px;
+    border: 1px solid #9E9E9E;
+}
+
+.registr_input{
+    width: 500px;
+}
+
+.registration_email, .registration_password{
+    width: 488px;
+    height: 48px;
+}
+
+.input_names, .registration_email, .registration_password{
+    margin-bottom: 10px;
+}
+
+.registr_lines{
+    display: flex;
+    align-items: center;
+}
+
+.red_line, .grey_line{
+    width: 157px;
+    margin: 0;
+    margin-left: 5px;
+} 
+
+.red_line{
+    border: 2px solid #D7353C;
+}
+
+.grey_line{
+    border: 1px solid #BDBDBD;
+}
+
+.registration_passwoed_strength{
+    display: flex;
+    justify-content: end;
+    color: #616161;
+    font-size: 11px;
+    font-weight: lighter;
+}
+
+.btn_registration_next{
+    width: 100%;
+    height: 50px;
+    background-color: #4067EC;
+    color: white;
+    font-size: 15px;
+    line-height: 22.5px;
+    font-weight: bold;
+    border: none;
+}
+
+.politics_terms{
+    color: #9E9E9E;
+    font-weight: lighter;
+    font-size: 11px;
+    text-decoration: underline;
+}
+
+.politics_terms_hard{
+    color: #424242;
+}
+
+.regitration_block{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
