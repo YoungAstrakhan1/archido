@@ -11,7 +11,7 @@
         <div class="header">
             <div class="header_logo">
                 <div class="header_logo_contact">
-                    <img src="./img/Logo.svg" alt="logotype">
+                    <img id="home" src="./img/Logo.svg" alt="logotype">
                     <div class="header_phone">
                         <img src="./img/Group.svg" alt="phone">
                         <p>+7 499 322 16 67</p>
@@ -19,11 +19,11 @@
                 </div>
             </div>
             <div class="header_nav">
-                <a class="header_nav_bar" href="#">Home</a>
-                <a class="header_nav_bar" href="#">Company</a>
-                <a class="header_nav_bar" href="#">Property</a>
-                <a class="header_nav_bar" href="#">Blog</a>
-                <a class="header_nav_bar" href="#">Contacts</a>
+                <a class="header_nav_bar" href="#home">Home</a>
+                <a class="header_nav_bar" href="#company">Company</a>
+                <a class="header_nav_bar" href="#property">Property</a>
+                <a class="header_nav_bar" href="./blog.html">Blog</a>
+                <a class="header_nav_bar" href="#contacts">Contacts</a>
             </div>
             <div class="header_button">
                 <button onclick="document.location='./login.html'" class="btn_login">Login</button>
@@ -89,7 +89,7 @@
             <div class="aboutus_block">
                 <div class="about_block_name">
                     <div class="arrow_aboutus">
-                        <img src="./img/Arrow 4.svg" alt="Arrow">
+                        <img id="company" src="./img/Arrow 4.svg" alt="Arrow">
                         <p>About Us</p>
                     </div>
                     <div class="about_block_give">
@@ -163,7 +163,7 @@
         </div>
         <div class="block_dreamproject">
             <div class="dreamproject_container">
-                <div class="arrow_projects">
+                <div id="property" class="arrow_projects">
                     <img src="./img/Arrow 4.svg" alt="Arrow">
                     <p>Our Property</p>
                 </div>
@@ -174,7 +174,7 @@
                     <img src="./img/Frame 41.svg" alt="House">
                     <div class="oneline">
                         <h5 class="dream_title">The Grand Estate</h5>
-                        <img class="refresh_plus" src="./img/plus-square.svg" alt="Plus">
+                        <img onclick="document.location='housebuy.html'" class="refresh_plus" src="./img/plus-square.svg" alt="Plus">
                     </div>
                     <div class="name_price_product">
                         <p class="street_title">Mosco, 121B</p>
@@ -185,7 +185,7 @@
                     <img src="./img/Frame 41-1.svg" alt="House">
                     <div class="oneline">
                         <h5 class="dream_title">The Grand Estate</h5>
-                        <img class="refresh_plus" src="./img/plus-square white.svg" alt="Plus">
+                        <img onclick="document.location='housebuy.html'" class="refresh_plus" src="./img/plus-square white.svg" alt="Plus">
                     </div>
                     <div class="name_price_product">
                         <p class="street_title">Mosco, 121B</p>
@@ -196,7 +196,7 @@
                     <img src="./img/Frame 41-2.svg" alt="House">
                     <div class="oneline">
                         <h5 class="dream_title">The Grand Estate</h5>
-                        <img class="refresh_plus" src="./img/plus-square.svg" alt="Plus">
+                        <img onclick="document.location='housebuy.html'" class="refresh_plus" src="./img/plus-square.svg" alt="Plus">
                     </div>
                     <div class="name_price_product">
                         <p class="street_title">Mosco, 121B</p>
@@ -209,7 +209,7 @@
                     <img src="./img/Frame 41.svg" alt="House">
                     <div class="oneline">
                         <h5 class="dream_title">The Grand Estate</h5>
-                        <img class="refresh_plus" src="./img/plus-square.svg" alt="Plus">
+                        <img onclick="document.location='housebuy.html'" class="refresh_plus" src="./img/plus-square.svg" alt="Plus">
                     </div>
                     <div class="name_price_product">
                         <p class="street_title">Mosco, 121B</p>
@@ -220,7 +220,7 @@
                     <img src="./img/Frame 41-1.svg" alt="House">
                     <div class="oneline">
                         <h5 class="dream_title">The Grand Estate</h5>
-                        <img class="refresh_plus" src="./img/plus-square white.svg" alt="Plus">
+                        <img onclick="document.location='housebuy.html'" class="refresh_plus" src="./img/plus-square white.svg" alt="Plus">
                     </div>
                     <div class="name_price_product">
                         <p class="street_title">Mosco, 121B</p>
@@ -231,39 +231,12 @@
                     <img src="./img/Frame 41-2.svg" alt="House">
                     <div class="oneline">
                         <h5 class="dream_title">The Grand Estate</h5>
-                        <img class="refresh_plus" src="./img/plus-square.svg" alt="Plus">
+                        <img onclick="document.location='housebuy.html'" class="refresh_plus" src="./img/plus-square.svg" alt="Plus">
                     </div>
                     <div class="name_price_product">
                         <p class="street_title">Mosco, 121B</p>
                         <p class="price_title">$35,000.00</p>
                     </div>
-            </div>
-        </div>
-        <div class="architecture_container">
-            <div class="arrow_projects">
-                <img src="./img/Arrow 4.svg" alt="Arrow">
-                <p>Our Team</p>
-            </div>
-            <h3 class="architecture_title">Our Fantastic Architecture</h3>
-            <p class="architecture_subtitle">A new dimension for the gold<br> standerd in architecture</p>
-            <div class="architecture_block">
-                <img src="./img/Frame 52.svg" alt="Dive Phonix">
-                <div class="architecture_information">
-                    <h5 class="FIO">Dive Phonix</h5>
-                    <p class="specialist">Lead Engineer Of Building</p>
-                    <p class="quote">Can you make it pop can you make the font bigger? nor I know somebody who can do<br> this for a reasonable cost make it sexy you are lucky to even be doing this for us can you<br> pimp this powerpoint, need more geometry patterns can you punch up the fun level on<br> these icons. You might wanna give it another shot could you solutionize that for me, yet<br> this is just a 5 minutes job. Start on it today and we will talk about what i want next time I<br> got your invoice...it seems really high, why did you charge so much,</p>
-                    <div class="social_partner">
-                        <img src="./img/Vector.svg" alt="ig">
-                        <img src="./img/_x31_0.Linkedin.svg" alt="in">
-                        <img src="./img/Group12.svg" alt="fc">
-                        <img src="./img/Group-1.svg" alt="tt">
-                    </div>
-                    <div class="architecture_partner">
-                        <img src="./img/Frame 52-1.svg" alt="Dive Phonix">
-                        <img src="./img/Frame 53.svg" alt="Denjel Washington">
-                        <img src="./img/Frame 54.svg" alt="Henry Chevil">
-                    </div>
-                </div>
             </div>
         </div>
         <div class="arrow_client">
@@ -366,7 +339,7 @@
         </div>
         <div class="contactus_container">
             <div class="contactus_arrow">
-                <img src="./img/Arrow 4.svg" alt="Arrow">
+                <img id="contacts" src="./img/Arrow 4.svg" alt="Arrow">
                 <p>Contact Us</p>
             </div>
             <h5 class="contactus_title">Connect With Our Sales Team.</h5>
